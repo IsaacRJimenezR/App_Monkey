@@ -20,7 +20,8 @@ import 'package:monkey_application/src/pages/profile.dart';
 import 'package:monkey_application/src/pages/reset_password.dart';
 import 'package:monkey_application/src/pages/sign_up.dart';
 import 'package:monkey_application/src/pages/verification.dart';
-
+//´P19
+import 'package:appmonkey/src/pages/Pagina19.dart';
 final routes = <String, WidgetBuilder> {
   '/'       :(BuildContext context) => const HomePage(),
   '/login' : (BuildContext context) => const Login(),
@@ -34,7 +35,8 @@ final routes = <String, WidgetBuilder> {
   '/verification': (BuildContext context) => const Verification(),
   '/desserts': (BuildContext context) => const Desserts(),
   '/profile': (BuildContext context) => const Profile(),
-  
+  ///P19
+    '/P19': (BuildContext context) => const Pagina19(),
   /////////Jesus Antonio // 
   '/carrusel_2': (BuildContext context) => const Carrusel2Page(),
   '/carrusel_3': (BuildContext context) => const Carrusel3Page(),  
